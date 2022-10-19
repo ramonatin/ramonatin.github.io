@@ -12,7 +12,8 @@ Process of Creating Connect Four
 8. Reset the game after a player winss
 
 
+//I couldn't get my github.io works 
 
-
+..KennyYipCoding..
 
 .
