@@ -1,40 +1,35 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-#title {
-  font-style: normal;
-  font-family: sans-serif;
-  padding: 20px;
-}
-
-#blueBox {
-  height: 150px;
-  background-color: navy;
-}
-div {
-  border: 1px solid black;
-  width: 50px;
-  height: 50px;}
-
-.blocks {
-  width: 300px;
-  height: 450px;
+#board {
+  height: 540px;
+  width: 630px;
   background-color: blue;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  border: 1px solid black;
+  border: 10px solid navy;
   
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.player-one {
-  border-radius: 30px;
+.tile {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+
+  /* Circle */
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid navy;
 }
 
-.player-two {
-  border-radius: 30px;
+.red-piece {
+  background-color: red;
+}
+
+.yellow-piece {
+  background-color: yellow;
 }
 
